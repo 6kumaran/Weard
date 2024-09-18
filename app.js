@@ -21,7 +21,6 @@ try {
 } catch (error) {
     console.log("Error : ",error)
 }
-app.use("/",App)
 app.use("/cloth",clothRoute)
 app.use("/user",userRoute)
 app.listen(PORT, () => {
